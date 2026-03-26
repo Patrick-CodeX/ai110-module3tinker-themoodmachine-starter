@@ -23,6 +23,11 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "proud",    # Added for your new posts
+    "hopeful",  # Added for your new posts
+    "fire",     # Slang
+    "🔥",       # Emoji
+    "😂",       # Emoji
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +41,11 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "failed",   # Added for your new posts
+    "ugh",      # Added for your new posts
+    "mid",      # Slang
+    "💀",       # Emoji
+    "😑",       # Emoji
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +60,14 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey stressed but kind of proud of myself ngl" ,  # "mixed"
+    "This day hit different fr fr 💀", # "negative" # "negative"  (edge case: "hit different" is ambiguous)
+    "ugh another Monday 😑",                             # "negative"
+    "I failed my quiz lmaooo 💀😂" , # "negative"
+    "Oh great, my alarm didn't go off. Love that for me.",  # "negative"
+    "I absolutely love sitting in traffic for two hours"    , # "negative"
+    "I graduated but I already miss school so much"        , # "mixed"
+    "So tired but I actually had a really good day"        , # "mixed"
 ]
 
 # Human labels for each post above.
@@ -65,6 +83,13 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",
+    "negative",
+    "negative",
+    "negative",
+    "negative",
+    "mixed",
+    "mixed"
 ]
 
 # TODO: Add 5-10 more posts and labels.
